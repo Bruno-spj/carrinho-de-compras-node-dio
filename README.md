@@ -22,9 +22,10 @@ Este projeto **não possui interface gráfica (frontend)**, focando apenas na l�
 carrinho-shopee-node/
 │
 ├── src/
-│ ├── cart.js # Módulo principal com as funções do carrinho
-  ├── item.js # Módulo responsável na criação dos itens 
-│ └── index.js # Arquivo de execução e testes
+│ ├── cart.js # Módulo com as funções principais do carrinho
+│ ├── index.js # Arquivo para testes e execução
+│ └── item/
+│ └── createItem.js # Função para criar novos itens com subtotal
 │
 ├── package.json
 └── README.md
